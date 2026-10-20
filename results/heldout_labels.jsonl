@@ -1,0 +1,56 @@
+{"trial": "held11_00", "fault": "datalink_loss", "instance": 1, "inject_boot_ms": 52264, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held11_00.ulg", "seed": 11}
+{"trial": "held14_00", "fault": "none", "instance": 4, "inject_boot_ms": 56960, "armed_at_end": true, "statustext": [], "ulg": "held14_00.ulg", "seed": 14}
+{"trial": "held12_00", "fault": "none", "instance": 2, "inject_boot_ms": 56884, "armed_at_end": true, "statustext": [], "ulg": "held12_00.ulg", "seed": 12}
+{"trial": "held13_00", "fault": "battery_fail", "instance": 3, "inject_boot_ms": 67272, "mag": 0, "armed_at_end": true, "statustext": [[70044, "Low battery level\t"], [70100, "Failsafe activated\t"]], "ulg": "held13_00.ulg", "seed": 13}
+{"trial": "held11_01", "fault": "mag_offset", "instance": 1, "inject_boot_ms": 58676, "mag": -1.314871787884976, "armed_at_end": true, "statustext": [], "ulg": "held11_01.ulg", "seed": 11}
+{"trial": "held12_01", "fault": "gps_loss", "instance": 2, "inject_boot_ms": 65448, "mag": 0, "armed_at_end": false, "statustext": [[70440, "Failsafe activated\t"], [91708, "Landing detected\t"], [93716, "Disarmed by landing\t"], [93768, "Preflight: GPS fix too low"]], "ulg": "held12_01.ulg", "seed": 12}
+{"trial": "held14_01", "fault": "none", "instance": 4, "inject_boot_ms": 67036, "armed_at_end": true, "statustext": [], "ulg": "held14_01.ulg", "seed": 14}
+{"trial": "held13_01", "fault": "thrust_loss", "instance": 3, "inject_boot_ms": 67928, "mag": 1.8886953779235622, "armed_at_end": true, "statustext": [], "ulg": "held13_01.ulg", "seed": 13}
+{"trial": "held11_02", "fault": "gps_loss", "instance": 1, "inject_boot_ms": 63428, "mag": 0, "armed_at_end": false, "statustext": [[68528, "Failsafe activated\t"], [87108, "Landing detected\t"], [89108, "Disarmed by landing\t"], [89156, "Preflight: GPS fix too low"]], "ulg": "held11_02.ulg", "seed": 11}
+{"trial": "held14_02", "fault": "thrust_loss", "instance": 4, "inject_boot_ms": 55404, "mag": 2.3168681210050766, "armed_at_end": true, "statustext": [], "ulg": "held14_02.ulg", "seed": 14}
+{"trial": "held12_02", "fault": "none", "instance": 2, "inject_boot_ms": 67844, "armed_at_end": true, "statustext": [], "ulg": "held12_02.ulg", "seed": 12}
+{"trial": "held13_02", "fault": "gps_loss", "instance": 3, "inject_boot_ms": 59224, "mag": 0, "armed_at_end": false, "statustext": [[64204, "Failsafe activated\t"], [86404, "Landing detected\t"], [88404, "Disarmed by landing\t"], [88460, "Preflight: GPS fix too low"]], "ulg": "held13_02.ulg", "seed": 13}
+{"trial": "held14_03", "fault": "gps_loss", "instance": 4, "error": "RuntimeError('arm timeout')", "ulg": "held14_03.ulg", "seed": 14}
+{"trial": "held13_03", "fault": "none", "instance": 3, "error": "RuntimeError('arm timeout')", "ulg": "held13_03.ulg", "seed": 13}
+{"trial": "held12_03", "fault": "battery_fail", "instance": 2, "error": "RuntimeError('arm timeout')", "ulg": "held12_03.ulg", "seed": 12}
+{"trial": "held11_03", "fault": "gps_loss", "instance": 1, "inject_boot_ms": 51572, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held11_03.ulg", "seed": 11}
+{"trial": "held14_04", "fault": "thrust_loss", "instance": 4, "inject_boot_ms": 58524, "mag": 2.6894758979062474, "armed_at_end": true, "statustext": [], "ulg": "held14_04.ulg", "seed": 14}
+{"trial": "held11_04", "fault": "battery_fail", "instance": 1, "inject_boot_ms": 60568, "mag": 0, "armed_at_end": true, "statustext": [[63660, "Low battery level\t"], [63712, "Failsafe activated\t"]], "ulg": "held11_04.ulg", "seed": 11}
+{"trial": "held13_04", "fault": "mag_offset", "instance": 3, "inject_boot_ms": 66996, "mag": 1.120777285315812, "armed_at_end": true, "statustext": [], "ulg": "held13_04.ulg", "seed": 13}
+{"trial": "held12_04", "fault": "baro_offset", "instance": 2, "inject_boot_ms": 69816, "mag": 491.29698144994495, "armed_at_end": true, "statustext": [], "ulg": "held12_04.ulg", "seed": 12}
+{"trial": "held14_05", "fault": "baro_offset", "instance": 4, "inject_boot_ms": 56616, "mag": 608.0366631615202, "armed_at_end": true, "statustext": [], "ulg": "held14_05.ulg", "seed": 14}
+{"trial": "held13_05", "fault": "gps_loss", "instance": 3, "inject_boot_ms": 59232, "mag": 0, "armed_at_end": false, "statustext": [[64224, "Failsafe activated\t"], [89720, "Landing detected\t"], [91720, "Disarmed by landing\t"], [91780, "Preflight: GPS fix too low"]], "ulg": "held13_05.ulg", "seed": 13}
+{"trial": "held11_05", "fault": "mag_offset", "instance": 1, "inject_boot_ms": 60028, "mag": -0.47724584951591853, "armed_at_end": true, "statustext": [], "ulg": "held11_05.ulg", "seed": 11}
+{"trial": "held12_05", "fault": "datalink_loss", "instance": 2, "inject_boot_ms": 56528, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held12_05.ulg", "seed": 12}
+{"trial": "held12_06", "fault": "gps_loss", "instance": 2, "inject_boot_ms": 58320, "mag": 0, "armed_at_end": false, "statustext": [[63312, "Failsafe activated\t"], [87100, "Landing detected\t"], [89100, "Disarmed by landing\t"], [89152, "Preflight: GPS fix too low"]], "ulg": "held12_06.ulg", "seed": 12}
+{"trial": "held14_06", "fault": "mag_offset", "instance": 4, "inject_boot_ms": 62248, "mag": -0.9332127323602594, "armed_at_end": true, "statustext": [], "ulg": "held14_06.ulg", "seed": 14}
+{"trial": "held13_06", "fault": "thrust_loss", "instance": 3, "inject_boot_ms": 63836, "mag": 1.9226383561111189, "armed_at_end": true, "statustext": [], "ulg": "held13_06.ulg", "seed": 13}
+{"trial": "held11_06", "fault": "thrust_loss", "instance": 1, "inject_boot_ms": 67304, "mag": 2.532040750633085, "armed_at_end": true, "statustext": [], "ulg": "held11_06.ulg", "seed": 11}
+{"trial": "held12_07", "fault": "thrust_loss", "instance": 2, "inject_boot_ms": 56560, "mag": 2.398960170082228, "armed_at_end": true, "statustext": [], "ulg": "held12_07.ulg", "seed": 12}
+{"trial": "held14_07", "fault": "mag_offset", "instance": 4, "inject_boot_ms": 57508, "mag": -0.43079714609598474, "armed_at_end": true, "statustext": [], "ulg": "held14_07.ulg", "seed": 14}
+{"trial": "held13_07", "fault": "battery_fail", "instance": 3, "inject_boot_ms": 58924, "mag": 0, "armed_at_end": true, "statustext": [[62084, "Low battery level\t"], [62140, "Failsafe activated\t"]], "ulg": "held13_07.ulg", "seed": 13}
+{"trial": "held11_07", "fault": "baro_offset", "instance": 1, "inject_boot_ms": 66932, "mag": 1013.6453816605, "armed_at_end": true, "statustext": [], "ulg": "held11_07.ulg", "seed": 11}
+{"trial": "held11_08", "fault": "baro_offset", "instance": 1, "error": "RuntimeError('arm timeout')", "ulg": "held11_08.ulg", "seed": 11}
+{"trial": "held12_08", "fault": "baro_offset", "instance": 2, "inject_boot_ms": 58052, "mag": 1445.4137968036118, "armed_at_end": true, "statustext": [], "ulg": "held12_08.ulg", "seed": 12}
+{"trial": "held14_08", "fault": "baro_offset", "instance": 4, "inject_boot_ms": 57460, "mag": -1209.2458051247152, "armed_at_end": true, "statustext": [], "ulg": "held14_08.ulg", "seed": 14}
+{"trial": "held13_08", "fault": "baro_offset", "instance": 3, "inject_boot_ms": 55392, "mag": 522.8723296863498, "armed_at_end": true, "statustext": [], "ulg": "held13_08.ulg", "seed": 13}
+{"trial": "held11_09", "fault": "none", "instance": 1, "inject_boot_ms": 53416, "armed_at_end": true, "statustext": [], "ulg": "held11_09.ulg", "seed": 11}
+{"trial": "held14_09", "fault": "battery_fail", "instance": 4, "inject_boot_ms": 56652, "mag": 0, "armed_at_end": true, "statustext": [[59872, "Low battery level\t"], [59924, "Failsafe activated\t"]], "ulg": "held14_09.ulg", "seed": 14}
+{"trial": "held12_09", "fault": "mag_offset", "instance": 2, "inject_boot_ms": 64352, "mag": -0.43095759391044675, "armed_at_end": true, "statustext": [], "ulg": "held12_09.ulg", "seed": 12}
+{"trial": "held13_09", "fault": "baro_offset", "instance": 3, "inject_boot_ms": 59684, "mag": -682.338145680483, "armed_at_end": true, "statustext": [], "ulg": "held13_09.ulg", "seed": 13}
+{"trial": "held11_10", "fault": "datalink_loss", "instance": 1, "inject_boot_ms": 57356, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held11_10.ulg", "seed": 11}
+{"trial": "held14_10", "fault": "datalink_loss", "instance": 4, "inject_boot_ms": 54512, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held14_10.ulg", "seed": 14}
+{"trial": "held12_10", "fault": "battery_fail", "instance": 2, "inject_boot_ms": 60212, "mag": 0, "armed_at_end": true, "statustext": [[63184, "Low battery level\t"], [63232, "Failsafe activated\t"]], "ulg": "held12_10.ulg", "seed": 12}
+{"trial": "held13_10", "fault": "datalink_loss", "instance": 3, "inject_boot_ms": 66312, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held13_10.ulg", "seed": 13}
+{"trial": "held11_11", "fault": "none", "instance": 1, "inject_boot_ms": 62176, "armed_at_end": true, "statustext": [], "ulg": "held11_11.ulg", "seed": 11}
+{"trial": "held14_11", "fault": "datalink_loss", "instance": 4, "inject_boot_ms": 65984, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held14_11.ulg", "seed": 14}
+{"trial": "held12_11", "fault": "datalink_loss", "instance": 2, "inject_boot_ms": 57992, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held12_11.ulg", "seed": 12}
+{"trial": "held13_11", "fault": "datalink_loss", "instance": 3, "inject_boot_ms": 63228, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "held13_11.ulg", "seed": 13}
+{"trial": "held11_12", "fault": "battery_fail", "instance": 1, "inject_boot_ms": 61044, "mag": 0, "armed_at_end": true, "statustext": [[64012, "Low battery level\t"], [64068, "Failsafe activated\t"]], "ulg": "held11_12.ulg", "seed": 11}
+{"trial": "held11_13", "fault": "thrust_loss", "instance": 1, "error": "RuntimeError('arm timeout')", "ulg": "held11_13.ulg", "seed": 11}
+{"trial": "held12_12", "fault": "mag_offset", "instance": 2, "inject_boot_ms": 60492, "mag": -0.9654197700708228, "armed_at_end": true, "statustext": [], "ulg": "held12_12.ulg", "seed": 12}
+{"trial": "held12_13", "fault": "thrust_loss", "instance": 2, "error": "RuntimeError('arm timeout')", "ulg": "held12_13.ulg", "seed": 12}
+{"trial": "held14_12", "fault": "battery_fail", "instance": 4, "inject_boot_ms": 65584, "mag": 0, "armed_at_end": true, "statustext": [[68348, "Low battery level\t"], [68396, "Failsafe activated\t"]], "ulg": "held14_12.ulg", "seed": 14}
+{"trial": "held13_12", "fault": "none", "instance": 3, "inject_boot_ms": 61592, "armed_at_end": true, "statustext": [], "ulg": "held13_12.ulg", "seed": 13}
+{"trial": "held14_13", "fault": "gps_loss", "instance": 4, "inject_boot_ms": 58916, "mag": 0, "armed_at_end": false, "statustext": [[64000, "Failsafe activated\t"], [90008, "Landing detected\t"], [92020, "Disarmed by landing\t"], [92068, "Preflight: GPS fix too low"]], "ulg": "held14_13.ulg", "seed": 14}
+{"trial": "held13_13", "fault": "mag_offset", "instance": 3, "inject_boot_ms": 63832, "mag": -0.7952862541476469, "armed_at_end": true, "statustext": [], "ulg": "held13_13.ulg", "seed": 13}

@@ -1,0 +1,240 @@
+{
+ "n": 17,
+ "correct": 16,
+ "per_fault": {
+  "thrust_loss": [
+   3,
+   3
+  ],
+  "mag_offset": [
+   4,
+   4
+  ],
+  "none": [
+   2,
+   2
+  ],
+  "datalink_loss": [
+   3,
+   3
+  ],
+  "baro_offset": [
+   1,
+   2
+  ],
+  "gps_loss": [
+   2,
+   2
+  ],
+  "battery_fail": [
+   1,
+   1
+  ]
+ },
+ "rows": [
+  {
+   "trial": "dev1_00",
+   "fault": "thrust_loss",
+   "mag": 2.582648746813399,
+   "expected": "propulsion",
+   "predicted": "propulsion",
+   "dt_s": 0.43,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": "attitude tracking error > 20 deg for 1.0 s",
+   "root": "motor output saturated for 39.6 s"
+  },
+  {
+   "trial": "dev2_00",
+   "fault": "mag_offset",
+   "mag": -1.4996906755397963,
+   "expected": "mag",
+   "predicted": "mag",
+   "dt_s": 0.04,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": "magnetic field strength jumped 0.53 -> 1.05 G"
+  },
+  {
+   "trial": "dev1_01",
+   "fault": "none",
+   "mag": null,
+   "expected": "none",
+   "predicted": "none",
+   "dt_s": null,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": null
+  },
+  {
+   "trial": "dev2_01",
+   "fault": "thrust_loss",
+   "mag": 2.6292828536729487,
+   "expected": "propulsion",
+   "predicted": "propulsion",
+   "dt_s": 0.43,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": "motor output saturated for 24.6 s"
+  },
+  {
+   "trial": "dev1_02",
+   "fault": "datalink_loss",
+   "mag": 0,
+   "expected": "datalink",
+   "predicted": "datalink",
+   "dt_s": 2.02,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": "failsafe activated",
+   "root": "GCS heartbeats stopped on MAVLink instance 1"
+  },
+  {
+   "trial": "dev2_02",
+   "fault": "baro_offset",
+   "mag": 1020.1386482718741,
+   "expected": "baro",
+   "predicted": "baro",
+   "dt_s": -0.22,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": "baro altitude jumped -85.0 m in 0.25 s"
+  },
+  {
+   "trial": "dev1_03",
+   "fault": "mag_offset",
+   "mag": -0.980392355798638,
+   "expected": "mag",
+   "predicted": "mag",
+   "dt_s": 0.09,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": "magnetic field strength jumped 0.53 -> 0.94 G"
+  },
+  {
+   "trial": "dev3_00",
+   "fault": "gps_loss",
+   "mag": 0,
+   "expected": "gps",
+   "predicted": "gps",
+   "dt_s": 0.04,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": "failsafe activated",
+   "root": "GPS fix lost (fix_type 3 -> 0)"
+  },
+  {
+   "trial": "dev3_01",
+   "fault": "mag_offset",
+   "mag": -0.6551142059143389,
+   "expected": "mag",
+   "predicted": "mag",
+   "dt_s": 0.22,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": "EKF magnetometer/heading innovation test failing (ratio > 1 for 7.1 s)"
+  },
+  {
+   "trial": "dev3_02",
+   "fault": "thrust_loss",
+   "mag": 1.7753399337385094,
+   "expected": "propulsion",
+   "predicted": "propulsion",
+   "dt_s": 0.27,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": "altitude below setpoint by > 3 m for 38.9 s",
+   "root": "motor output saturated for 39.9 s"
+  },
+  {
+   "trial": "dev3_04",
+   "fault": "datalink_loss",
+   "mag": 0,
+   "expected": "datalink",
+   "predicted": "datalink",
+   "dt_s": 2.26,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": "failsafe activated",
+   "root": "GCS heartbeats stopped on MAVLink instance 1"
+  },
+  {
+   "trial": "dev4_00",
+   "fault": "datalink_loss",
+   "mag": 0,
+   "expected": "datalink",
+   "predicted": "datalink",
+   "dt_s": 2.02,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": "failsafe activated",
+   "root": "GCS heartbeats stopped on MAVLink instance 1"
+  },
+  {
+   "trial": "dev4_01",
+   "fault": "battery_fail",
+   "mag": 0,
+   "expected": "battery",
+   "predicted": "battery",
+   "dt_s": 0.1,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": "battery sag: 15.48 V -> 14.40 V, remaining 72% -> 56% in 3.0 s"
+  },
+  {
+   "trial": "dev4_02",
+   "fault": "none",
+   "mag": null,
+   "expected": "none",
+   "predicted": "none",
+   "dt_s": null,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": null
+  },
+  {
+   "trial": "dev4_04",
+   "fault": "gps_loss",
+   "mag": 0,
+   "expected": "gps",
+   "predicted": "gps",
+   "dt_s": 0.11,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": "failsafe activated",
+   "root": "GPS fix lost (fix_type 3 -> 0)"
+  },
+  {
+   "trial": "dev4_05",
+   "fault": "mag_offset",
+   "mag": -0.9209466763436597,
+   "expected": "mag",
+   "predicted": "mag",
+   "dt_s": 0.04,
+   "cat_ok": true,
+   "ok": true,
+   "anchor": null,
+   "root": "magnetic field strength jumped 0.53 -> 0.77 G"
+  },
+  {
+   "trial": "dev4_06",
+   "fault": "baro_offset",
+   "mag": 1273.0235628660155,
+   "expected": "baro",
+   "predicted": "baro",
+   "dt_s": -21.58,
+   "cat_ok": true,
+   "ok": false,
+   "anchor": "impact: accel 107 m/s^2",
+   "root": "log: [health_and_arming_checks] Preflight Fail: No valid data from Baro 0"
+  }
+ ]
+}

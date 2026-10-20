@@ -1,0 +1,18 @@
+{"trial": "dev1_00", "fault": "thrust_loss", "instance": 0, "inject_boot_ms": 61164, "mag": 2.582648746813399, "armed_at_end": true, "statustext": [], "ulg": "dev1_00.ulg", "seed": 1}
+{"trial": "dev2_00", "fault": "mag_offset", "instance": 1, "inject_boot_ms": 63488, "mag": -1.4996906755397963, "armed_at_end": true, "statustext": [], "ulg": "dev2_00.ulg", "seed": 2}
+{"trial": "dev1_01", "fault": "none", "instance": 0, "inject_boot_ms": 58224, "armed_at_end": true, "statustext": [], "ulg": "dev1_01.ulg", "seed": 1}
+{"trial": "dev2_01", "fault": "thrust_loss", "instance": 1, "inject_boot_ms": 60472, "mag": 2.6292828536729487, "armed_at_end": true, "statustext": [], "ulg": "dev2_01.ulg", "seed": 2}
+{"trial": "dev1_02", "fault": "datalink_loss", "instance": 0, "inject_boot_ms": 55340, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "dev1_02.ulg", "seed": 1}
+{"trial": "dev2_02", "fault": "baro_offset", "instance": 1, "inject_boot_ms": 69076, "mag": 1020.1386482718741, "armed_at_end": true, "statustext": [], "ulg": "dev2_02.ulg", "seed": 2}
+{"trial": "dev1_03", "fault": "mag_offset", "instance": 0, "inject_boot_ms": 66064, "mag": -0.980392355798638, "armed_at_end": true, "statustext": [], "ulg": "dev1_03.ulg", "seed": 1}
+{"trial": "dev3_00", "fault": "gps_loss", "instance": 0, "inject_boot_ms": 56468, "mag": 0, "armed_at_end": false, "statustext": [[61456, "Failsafe activated\t"], [82124, "Landing detected\t"], [84132, "Disarmed by landing\t"], [84188, "Preflight: GPS fix too low"]], "ulg": "dev3_00.ulg", "seed": 3}
+{"trial": "dev3_01", "fault": "mag_offset", "instance": 0, "inject_boot_ms": 62944, "mag": -0.6551142059143389, "armed_at_end": true, "statustext": [], "ulg": "dev3_01.ulg", "seed": 3}
+{"trial": "dev3_02", "fault": "thrust_loss", "instance": 0, "inject_boot_ms": 66932, "mag": 1.7753399337385094, "armed_at_end": true, "statustext": [], "ulg": "dev3_02.ulg", "seed": 3}
+{"trial": "dev3_04", "fault": "datalink_loss", "instance": 0, "inject_boot_ms": 62456, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "dev3_04.ulg", "seed": 3}
+{"trial": "dev4_00", "fault": "datalink_loss", "instance": 0, "inject_boot_ms": 65096, "mag": 0, "armed_at_end": true, "statustext": [], "ulg": "dev4_00.ulg", "seed": 4}
+{"trial": "dev4_01", "fault": "battery_fail", "instance": 0, "inject_boot_ms": 63892, "mag": 0, "armed_at_end": true, "statustext": [[66656, "Low battery level\t"], [66708, "Failsafe activated\t"]], "ulg": "dev4_01.ulg", "seed": 4}
+{"trial": "dev4_02", "fault": "none", "instance": 0, "inject_boot_ms": 59956, "armed_at_end": true, "statustext": [], "ulg": "dev4_02.ulg", "seed": 4}
+{"trial": "dev4_03", "fault": "thrust_loss", "instance": 0, "error": "RuntimeError('arm timeout')", "ulg": "dev4_03.ulg", "seed": 4}
+{"trial": "dev4_04", "fault": "gps_loss", "instance": 0, "inject_boot_ms": 65396, "mag": 0, "armed_at_end": false, "statustext": [[70484, "Failsafe activated\t"], [91892, "Landing detected\t"], [93892, "Disarmed by landing\t"], [93944, "Preflight: GPS fix too low"]], "ulg": "dev4_04.ulg", "seed": 4}
+{"trial": "dev4_05", "fault": "mag_offset", "instance": 0, "inject_boot_ms": 59432, "mag": -0.9209466763436597, "armed_at_end": true, "statustext": [], "ulg": "dev4_05.ulg", "seed": 4}
+{"trial": "dev4_06", "fault": "baro_offset", "instance": 0, "inject_boot_ms": 60356, "mag": 1273.0235628660155, "armed_at_end": false, "statustext": [], "ulg": "dev4_06.ulg", "seed": 4}
