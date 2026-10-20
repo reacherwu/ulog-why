@@ -1,0 +1,18 @@
+[package]
+name = "ulog-why"
+version = "0.1.0"
+edition = "2021"
+description = "Find the earliest likely causal failure in a PX4 ULog, not just the final failsafe"
+license = "MIT"
+repository = "https://github.com/reacherwu/ulog-why"
+readme = "README.md"
+keywords = ["px4", "ulog", "drone", "crash-analysis", "flight-log"]
+categories = ["command-line-utilities", "science::robotics"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+lto = true
+codegen-units = 1
